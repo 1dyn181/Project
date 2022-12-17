@@ -56,23 +56,23 @@ body{
 }
 
 .glavtext{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     margin-top: -60px;
     margin-left: 310px;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: white;
 }
 
 .glavtext1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     margin-top: -60px;
     margin-left: 510px;
     position: absolute;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: white;
 }
@@ -98,7 +98,7 @@ body{
 }
 
 .rest{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke; 
     font-size: 40px; 
     margin-left: 485px; 
@@ -106,7 +106,7 @@ body{
 }
 
 .rest1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke; 
     font-size: 20px; 
     margin-left: 380px; 
@@ -114,7 +114,7 @@ body{
 }
 
 .rest2{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke; 
     font-size: 20px; 
     margin-left: 470px; 
@@ -125,14 +125,14 @@ body{
     margin-top: 70px;
     font-size: larger;
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 150px;
 }
 
 .text1{
     font-size: larger;
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 150px;
 }
 
@@ -144,7 +144,7 @@ body{
 
 .ssylka{
     position: absolute;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     margin-top: -80px;
     margin-left: 520px;
@@ -154,7 +154,7 @@ body{
 
 .ssylka1{
     position: absolute;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     margin-top: -80px;
     margin-left: 720px;
@@ -167,5 +167,5 @@ body{
     text-align: center;
     opacity: 0.5;
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
