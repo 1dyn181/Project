@@ -44,6 +44,7 @@ table {
 
 body{
     display: block;
+    min-width: 1342px;
 }
 
 .header{
