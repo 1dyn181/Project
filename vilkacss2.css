@@ -47,10 +47,10 @@ table {
     border-radius: 20px;
     background-color: black;
     opacity: 0.7;
-    width: 1000px;
-    height: 510px;
+    width: 620px;
+    height: 480px;
     position: absolute;
-    margin: -850px 450px 0 450px;
+    margin: -500px 0 0 390px;
 }
 .konyr {
     margin-top: -2px;
@@ -63,16 +63,16 @@ table {
     position: absolute;
     justify-content: space-between;
     background-image: url(mramor.jpg);
-    height: 150px;
+    height: 100px;
     width: 100%;
-    margin-top: -1190px;
+    margin-top: -845px;
     opacity: 0.7;
 }
 .glavtext{
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
-    margin-top: -75px;
-    margin-left: 350px;
+    margin-top: -60px;
+    margin-left: 310px;
     position: absolute;
     font-size: 30px;
     font-weight: 700;
@@ -81,8 +81,8 @@ table {
 .glavtext1{
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
-    margin-top: -75px;
-    margin-left: 550px;
+    margin-top: -60px;
+    margin-left: 510px;
     position: absolute;
     font-size: 30px;
     font-weight: 700;
