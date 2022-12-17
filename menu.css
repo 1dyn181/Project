@@ -44,7 +44,6 @@ table {
 
 body{
     background-color: rgb(25, 10, 5);
-    min-width: 1342px;
 }
 
 .header{
@@ -125,6 +124,39 @@ body{
     margin-top: 50px;
     margin-left: 50px;
     width: 350px;
-    height: 500px;
+    height: 550px;
     background-color: rgb(20, 15, 5);
+}
+
+.name{
+    margin-left: 20px; 
+    color: white;
+    margin-top: 15px; 
+    font-weight: bold;
+}
+
+.description{
+    margin-left: 20px; 
+    color: white; 
+    margin-top: 15px;
+}
+
+.money{
+    margin-left: 20px; 
+    color: white; 
+    margin-top: 15px; 
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+.butn{
+    background-color: #f44336;
+    font-size: 13px;
+    border-radius: 6px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 170px;
+    cursor: pointer;
 }
