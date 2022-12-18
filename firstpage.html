@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="firstpage.css">
     <meta name="viewport" content="1342px, initial-scale=1.0">
+    <script src="firstpage.js" defer></script>
     <title>VILKA</title>
 </head>
 <body>
@@ -13,8 +14,24 @@
         <a href="menu.html"><h1 class="glavtext">Доставка</h1></a>
         <a href="menuvilka.html"><h1 class="glavtext1">Рестораны</h1></a>
         <a href="index.html"><h1 class="glavtext2">Войти</h1></a>
-    </div>    
-    <div class="body"></div>
+    </div>
+    <section aria-label="Photos">
+        <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+        <ul data-slides>
+            <li class="slide" data-active>
+            <img src="carousel1.jpg" alt="Image #1">
+            </li>
+            <li class="slide">
+            <img src="carousel2.jpg" alt="Image #2">
+            </li>
+            <li class="slide">
+            <img src="carousel3.jpg" alt="Image #3">
+            </li>
+        </ul>
+        </div>
+    </section>
     <div class="footer">
         <img src="headerLogo.png" alt="vilka" style="width: 250px; margin-left: 550px; margin-top: 50px;">
         <h1 class="rest">РЕСТОРАНЫ VILKA</h1>
@@ -35,6 +52,5 @@
         <h1 class="endtext">ТОО "Vilka Steak & Burger"</h1>
         <h1 class="endtext">Использование материалов разрешено только с позволения владельца</h1>
     </div>
-    <script src="firstpage.js"></script>
 </body>
 </html>
