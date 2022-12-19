@@ -4,5 +4,5 @@ document.querySelector('.buttom').onclick = (event) => {
         return;
     }
     
-    location.href='result.html?'+txt.value
+    location.href='firstpage.html?'+txt.value
 }
