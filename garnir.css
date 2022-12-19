@@ -183,3 +183,27 @@ body{
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.cartwin{ 
+    width: 300px; 
+    height: 300px; 
+    position: absolute; 
+    background-color: black; 
+    margin-left: 640px; 
+    margin-top: -100px; 
+    border-radius: 10px; 
+    display: none; 
+    animation-name: animatetop; 
+    animation-duration: 1s; 
+} 
+
+@keyframes animatetop { 
+    from { 
+        top: 0; 
+        opacity: 0; 
+    } 
+    to { 
+        top: 173px; 
+        opacity: 1; 
+    } 
+}
