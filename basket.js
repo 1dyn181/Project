@@ -1,13 +1,14 @@
 let cart = document.getElementById('cart'),
     btn = document.getElementById('kor'),
     x = document.getElementById('x');
-
     btn.onclick = function() {
     cart.style.display = "block";
 }         
+
     x.onclick = function() {
     cart.style.display = "none";
-}          
+}
+
     var additem = 0;
     function addcart(item, itemprice, itemcount) {
     additem += itemprice;
