@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1342px, initial-scale=1.0">
     <link rel="stylesheet" href="garnir.css">
-    <title>Garniry Vilka.kz</title>
+    <title>Гарниры</title>
 </head>
 <body>
     <div class="header">
@@ -13,7 +13,15 @@
         <a href="firstpage.html"><img src="headerLogo.png" alt="vilka" style="width: 110px; margin-left: 80px; cursor: pointer;"></a>
         <a href="#"><h1 class="glavtext">Доставка</h1></a>
         <a href="menuvilka.html"><h1 class="glavtext1">Рестораны</h1></a>
-        <h1 class="text">МЕНЮ ДОСТАВКИ - СТЕЙКИ</h1><br><br>
+
+        <div style="margin-left: 710px; margin-top: -57px; margin-bottom: 100px;"><button id="kor" style="color: white; background-color: black; cursor: pointer; font-size: 20px;"><img src="https://icon-library.com/images/white-shopping-cart-icon-png/white-shopping-cart-icon-png-19.jpg" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">КОРЗИНА</button></div>
+        <div id="cart" class="cartwin">
+            <div id="x" style="cursor: pointer; color: white; margin-bottom: 10px;">X</div>
+            <div id="total" style="position: absolute; color: white; margin-top: -25px; margin-left: 130px;">0</div>
+            <div id="bf"><div id="title" style="color: white;"><div id="sum" style="color: white;"></div></div></div>
+        </div>
+
+        <h1 class="text">МЕНЮ ДОСТАВКИ - ГАРНИРЫ</h1><br><br>
         <hr style="border: dashed 1px white;">
         <div class="menu">
             <a class="st" href="menu.html"><p class="st">Стейки</p></a>
@@ -36,34 +44,34 @@
     <div class="grid">
         <div class="basket">
             <img src="https://vilka.kz/storage/products/43/thumb/index.jpg" alt="ERROR" width="270px" height="240px" style="margin-left: 40px; margin-top: 15px; margin-bottom: 10px;">
-            <div class="name">Фри</div><br>
+            <div id="item1" class="name">Фри</div><br>
             <hr style="width: 280px; border: dashed 1px; color: white;">
-            <div class="money">5900 ₸</div>
-            <button class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
+            <div class="money">650 ₸</div>
+            <button onclick="addcart(item1, 650, 0)" class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
         </div>
 
         <div class="basket">
             <img src="https://vilka.kz/storage/products/45/original/index.jpg" alt="ERROR" width="270px" height="240px" style="margin-left: 40px; margin-top: 15px; margin-bottom: 10px;">
-            <div class="name">Шампиньоны гриль</div><br>
+            <div id="item2" class="name">Шампиньоны гриль</div><br>
             <hr style="width: 280px; border: dashed 1px; color: white;">
-            <div class="money">4900 ₸</div>
-            <button class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
+            <div class="money">600 ₸</div>
+            <button onclick="addcart(item2, 600, 0)" class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
         </div>
 
         <div class="basket">
             <img src="https://vilka.kz/storage/products/44/original/index.jpg" alt="ERROR" width="270px" height="240px" style="margin-left: 40px; margin-top: 15px; margin-bottom: 10px;">
-            <div class="name">Овощи гриль</div><br>
+            <div id="item3" class="name">Овощи гриль</div><br>
             <hr style="width: 280px; border: dashed 1px; color: white;">
-            <div class="money">4900 ₸</div>
-            <button class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
+            <div class="money">600 ₸</div>
+            <button onclick="addcart(item3, 600, 0)" class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
         </div>
         
         <div class="basket">
             <img src="https://vilka.kz/storage/products/42/original/index.jpg" alt="ERROR" width="270px" height="240px" style="margin-left: 40px; margin-top: 15px; margin-bottom: 10px;">
-            <div class="name">Рис</div><br>
+            <div id="item4" class="name">Рис</div><br>
             <hr style="width: 280px; border: dashed 1px; color: white;">
-            <div class="money">4300 ₸</div>
-            <button class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
+            <div class="money">300 ₸</div>
+            <button onclick="addcart(item4, 300, 0)" class="butn"><img src="https://cdn-icons-png.flaticon.com/512/3144/3144460.png" alt="ERROR" width="20px" height="20px" style="margin-right: 10px;">В КОРЗИНУ</button>
         </div>
     </div>
 
@@ -93,5 +101,6 @@
         <h1 class="endtext">ТОО "Vilka Steak & Burger"</h1>
         <h1 class="endtext">Использование материалов разрешено только с позволения владельца</h1>
     </div>
+    <script src="basket.js"></script>
 </body>
 </html>
