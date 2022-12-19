@@ -20,3 +20,4 @@ var result = location.search.substring(1);
         delete activeSlide.dataset.active
     })
 })
+
